@@ -272,12 +272,8 @@ zstyle ':vcs_info:git:*' formats '%F{#ff0000}(%b)%f'
 PS1="%F{#ffffff}┏━━\${debian_chroot:+(\$debian_chroot)─}\${VIRTUAL_ENV:+(\$(basename \$VIRTUAL_ENV))─}【%B%F{#005fdf}%n%F{#00ffff}㉿%F{#005fdf}%m%b%F{#ffffff} 】━◤%B%F{#005fdf}%(6~.%-1~/…/%4~.%5~)%b%F{#ffffff}◢ \${vcs_info_msg_0_}
 %F{#ffffff}┗━%B%F{#005fdf}$%b%F{reset} "
 
-# NOTE: personal alias — remove or edit the .desktop path below to match
-# your own Chrome PWA shortcut (Settings > right-click app > "Show in folder").
-alias youtube="$HOME/Desktop/chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop"
-alias Android='/opt/android-studio/bin/studio'
 alias startSnap='sudo systemctl restart snapd.apparmor.service && sudo systemctl restart snapd'
-alias startBluetooth='sudo systemctl restart bluetooth'
+alias startBluetooth='sudo systemctl restart bluetooth && sudo systemctl enable bluetooth'
 alias cls=clear
 alias update="sudo apt update && sudo apt full-upgrade -y"
 alias gem='gemini-cli -m gemini-2.5-flash-lite'
