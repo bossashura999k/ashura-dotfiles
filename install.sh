@@ -75,6 +75,5 @@ echo -e "  Run ${BOLD}source ~/.zshrc${RESET} (or open a new terminal) to load t
 echo ""
 echo -e "${YELLOW}${BOLD}Before you rely on the scripts, edit these for your own machine:${RESET}"
 echo -e "  • ${BOLD}mountWindows${RESET} alias in .zshrc  → check your real partition with ${BOLD}lsblk${RESET}"
-echo -e "  • ${BOLD}youtube${RESET} alias in .zshrc       → point at your own Chrome PWA .desktop file, or remove it"
 echo -e "  • ${BOLD}CONN${RESET}/${BOLD}IFACE${RESET} in ${BOLD}$SCRIPTS_DEST/adBlocker.sh${RESET} → check ${BOLD}nmcli connection show${RESET}"
 echo -e "See the README for full details."
