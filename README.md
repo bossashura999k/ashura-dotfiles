@@ -4,8 +4,6 @@ My personal Kali Linux setup — a heavily customized `.zshrc` plus a set of scr
 one-command power management and ad-blocking. Built for daily driving Kali on a laptop,
 tuned over time to be fast, informative, and a little dramatic.
 
-![Terminal preview](screenshots/terminal.png)
-
 ## What's in here
 
 | File | What it does |
